@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@genratr/web",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -11,14 +11,15 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
+    "@genratr/ui": "workspace:*",
+    "@million/lint": "^1.0.14",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@genratr/eslint-config": "workspace:*",
+    "@genratr/typescript-config": "workspace:*",
     "@types/node": "^22",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",

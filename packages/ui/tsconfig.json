@@ -1,6 +1,6 @@
 {
-  "extends": "@repo/typescript-config/react-library.json",
-  "compilerOptions": {
+  "extends": "@genratr/typescript-config/react-library.json",
+  "genratr": {
     "outDir": "dist"
   },
   "include": ["src"],

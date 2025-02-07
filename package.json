@@ -1,5 +1,5 @@
 {
-  "name": "genratr-turborepo",
+  "name": "@genratr/genratr-turborepo",
   "private": true,
   "scripts": {
     "build": "turbo build",
