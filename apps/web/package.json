@@ -1,5 +1,5 @@
 {
-  "name": "@genratr/web",
+  "name": "@lynx/web",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -11,15 +11,19 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@genratr/ui": "workspace:*",
+    "@lynx/ui": "workspace:*",
     "@million/lint": "^1.0.14",
+    "@neondatabase/serverless": "^0.10.4",
+    "@radix-ui/themes": "^3.2.0",
+    "@vercel/speed-insights": "^1.1.0",
+    "million": "^3.1.11",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@genratr/eslint-config": "workspace:*",
-    "@genratr/typescript-config": "workspace:*",
+    "@lynx/eslint-config": "workspace:*",
+    "@lynx/typescript-config": "workspace:*",
     "@types/node": "^22",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",

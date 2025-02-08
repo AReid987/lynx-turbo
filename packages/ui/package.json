@@ -1,5 +1,5 @@
 {
-  "name": "@genratr/ui",
+  "name": "@lynx/ui",
   "version": "0.0.0",
   "private": true,
   "exports": {
@@ -13,8 +13,8 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@genratr/eslint-config": "workspace:*",
-    "@genratr/typescript-config": "workspace:*",
+    "@lynx/eslint-config": "workspace:*",
+    "@lynx/typescript-config": "workspace:*",
     "@turbo/gen": "^2.4.0",
     "@types/node": "^22.13.0",
     "@types/react": "19.0.8",

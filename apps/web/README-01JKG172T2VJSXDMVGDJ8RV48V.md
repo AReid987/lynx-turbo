@@ -34,7 +34,7 @@ First, run the development server:
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [ht*****************00](ht*****************00) with your browser to see the result.
 
 Edits will automatically reload the page.
 You will see any output or errors in the console.
@@ -51,13 +51,13 @@ You will see any output or errors in the console.
 
 - `app/page.tsx`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`next/font`](ht******************************************************************ts) to automatically optimize and load Inter, a custom Google Font.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](ht*******************cs) - learn about Next.js features and API.
+- [Learn Next.js](ht********************rn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can check out [the Next.js GitHub repository](ht*****************************js) - your feedback and contributions are welcome!
 
 ### Deployment
 
-Both the Lynx WebUI and the Lynx Documentation are deployed on the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+Both the Lynx WebUI and the Lynx Documentation are deployed on the [Vercel Platform](ht****************************************************************************************************************************me).

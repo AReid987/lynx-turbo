@@ -1,19 +1,25 @@
 {
-  "name": "@genratr/genratr-turborepo",
+  "name": "@lynx/lynx-turborepo",
   "private": true,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "dev:web": "turbo dev --filter=@lynx/web",
+    "dev:docs": "turbo dev --filter=@lynx/docs",
+    "docker": "",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@turbo/gen": "^2.4.0",
+    "dotenv": "^16.4.7",
+    "dotenv-cli": "^8.0.0",
     "prettier": "^3.4.2",
     "turbo": "^2.4.0",
     "typescript": "5.7.3"
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "extends": "@genratr/typescript-config/react-library.json",
+  "extends": "@lynx/typescript-config/react-library.json",
   "genratr": {
     "outDir": "dist"
   },

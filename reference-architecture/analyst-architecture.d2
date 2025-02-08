@@ -1,0 +1,158 @@
+direction: right
+
+# Global styles
+styles: {
+  style: {
+    stroke: "#d4d4d8"
+    fill: "#71717a"
+    border-radius: 10
+    shadow: true
+  }
+}
+
+Lynx: {
+  shape: circle
+  style: {
+    stroke: "#99f6e4"
+    fill: "#14b8a6"
+    border-radius: 15
+    shadow: true
+  }
+
+  DataStorage: {
+    shape: cylinder
+    style: {
+      stroke: "#ddd6fe"
+      fill: "#8b5cf6"
+    }
+    
+    DataStaxAstraDB: {
+      shape: cylinder
+      style: {
+        stroke: "#c7d2fe"
+        fill: "#6366f1"
+      }
+      icon: https://www.svgrepo.com/show/331760/database.svg
+      
+      ApacheCassandra: {
+        icon: https://www.svgrepo.com/show/353403/apache-cassandra.svg
+        shape: cylinder
+      }
+    }
+    
+    AstraUnstructuredDataLoader: {
+      icon: https://www.svgrepo.com/show/374111/json.svg
+      shape: hexagon
+    }
+    
+    AstraStreaming: {
+      style: {
+        stroke: "#a7f3d0"
+        fill: "#10b981"
+      }
+      icon: https://www.svgrepo.com/show/375479/kafka.svg
+      
+      Luna: {
+        shape: cloud
+      }
+    }
+  }
+
+  BusinessLogic: {
+    shape: rectangle
+    style: {
+      stroke: "#fed7aa"
+      fill: "#f97316"
+    }
+    
+    Turborepo_PNPM: {
+      icon: https://www.svgrepo.com/show/354237/pnpm.svg
+      shape: hexagon
+      style: {
+        stroke: "#fecaca"
+        fill: "#ef4444"
+      }
+    }
+    
+    FastAPI_UV: {
+      icon: https://www.svgrepo.com/show/374088/python.svg
+      shape: rectangle
+      style: {
+        stroke: "#84cc16"
+        fill: "#a855f7"
+      }
+    }
+  }
+
+  FrontendApplications: {
+    style: {
+      stroke: "#fafafa"
+      fill: "#09090b"
+    }
+    
+    NextJSApp_Frontend: {
+      icon: https://www.svgrepo.com/show/354113/nextjs-icon.svg
+      style: {
+        stroke: "#fafafa"
+        fill: "#09090b"
+      }
+
+      AuthZ: {
+        shape: hexagon
+      }
+      AuthN: {
+        shape:  hexagon
+      }
+      CRM: {
+        shape: rectangle
+      }
+    }
+    
+    NextJSApp_Documentation_Collaboration: {
+      icon: https://www.svgrepo.com/show/354113/nextjs-icon.svg
+      shape: rectangle
+    }
+  }
+
+  Observability: {
+    style: {
+      stroke: "#0369A1"
+      fill: "#F0F9FF"
+    }
+    
+    ObservabilityDashboard: {
+      icon: https://www.svgrepo.com/show/353830/grafana.svg
+      shape: page
+    }
+  }
+
+  DockerOrchestration: {
+    style: {
+      stroke: "#0284C7"
+      fill: "#F0F9FF"
+    }
+    icon: https://www.svgrepo.com/show/373553/docker.svg
+    
+    DockerContainers: {
+      shape: rectangle
+    }
+    DockerCompose: {
+      shape: rectangle
+    }
+  }
+
+  BrowserControl: {
+    style: {
+      stroke: "#7C3AED"
+      fill: "#F5F3FF"
+    }
+    
+    browseUse: {
+      icon: https://www.svgrepo.com/show/353655/chrome.svg
+      shape: page
+    }
+    WebUI: {
+      shape: rectangle
+    }
+  }
+}

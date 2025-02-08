@@ -1,33 +1,62 @@
-# Genratr Tech Stack
+# Lynx PoC Tech Stack 
 
-<!--  TODOI: Organize Inbox -->
-## Inbox 
+## Agents
 
-### Database
+### Browser Use
 
-#### Neon
+### Browser Use Web UI
 
-#### Supabase
+### Langflow
 
-#### MongoDB
+## Prompt Engineering 
 
-#### PostgreSQL
+#### Adaline
 
-#### Cloudflare D1
+## AI Gateway
 
-- [Docs](https://developers.cloudflare.com/d1/)
+### PortKey
 
-#### Cloudflare R2 (Like S3)
+### Not Diamond
 
-<!-- TODO: Set limits on R2 -->
 
-- [Docs](https://developers.cloudflare.com/r2/)
 
-|  **Quota**:             |                |
-| ----------------------- | ---------------|      
-|  **Storage**:           | 10GB / Month|  |
-|  **Class A Operations** |                |
-|  **Class B Operations** |                |
+---
+
+## Frontend
+
+### Frameworks
+
+#### Next.js
+
+#### React
+
+#### ReactTailwindCSS
+
+#### RadixUI
+
+#### Motion
+
+---
+
+### Documentation
+
+#### Nextra
+
+#### TLDraw
+
+#### LiveBlocks
+
+#### Storybook
+
+## Backend
+
+---
+
+---
+
+## Data
+
+---
 
 ## Environment
 
@@ -55,8 +84,6 @@
 
 #### Nitric
 
-<!-- #### TODO: Terraform?? -->
-
 ---
 
 ### CI/CD
@@ -79,8 +106,6 @@
 
 - [Million Docs](https://old.million.dev/docs/install) <br />
 - It makes React 70% faster. 
-
-
 
 ---
 
@@ -108,14 +133,3 @@
 - [stt-app](https://generatr-stt.read-musik.workers.dev)
 
 ==============================================================================================
-
-## Backlog
-
-### Cloudflare
-
-#### Wrangler
-
-- [docs](https://developers.cloudflare.com/workers/wrangler/install-and-update/)
-
-
-

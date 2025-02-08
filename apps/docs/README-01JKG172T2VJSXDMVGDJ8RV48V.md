@@ -6,7 +6,7 @@ runme:
 
 # Lynx WebUI
 
-This is a [Next.js](https://nextjs.org/) WebUI for Lynx, the AI Agent.
+This is a [Next.js](ht**************rg/) WebUI for Lynx, the AI Agent.
 
 ## Features
 
@@ -40,7 +40,7 @@ First, run the development server:
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [ht*****************00](ht*****************00) with your browser to see the result.
 
 Edits will automatically reload the page.
 You will see any output or errors in the console.
@@ -54,19 +54,19 @@ Project structure:
 - `pages/`: Contains the pages of the application.
 - Home page: `app/page.tsx`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`next/font`](ht******************************************************************ts) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](ht*******************cs) - learn about Next.js features and API.
+- [Learn Next.js](ht********************rn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can check out [the Next.js GitHub repository](ht*****************************js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](ht****************************************************************************************************************************me) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out our [Next.js deployment documentation](ht***********************************************************ng) for more details.

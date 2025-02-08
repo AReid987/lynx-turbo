@@ -1,0 +1,9 @@
+[project]
+name = "lynx-core"
+version = "0.1.0"
+description = "lynx core system components"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langflow>=1.1.4.post1",
+]

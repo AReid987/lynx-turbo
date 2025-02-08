@@ -8,17 +8,17 @@ importers:
 
   .:
     dependencies:
-      '@genratr/ui':
+      '@lynx/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       '@million/lint':
         specifier: ^1.0.14
         version: 1.0.14
     devDependencies:
-      '@genratr/eslint-config':
+      '@lynx/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
-      '@genratr/typescript-config':
+      '@lynx/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
 
