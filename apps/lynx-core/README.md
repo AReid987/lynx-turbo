@@ -14,3 +14,12 @@ runme:
 
 
 ## Stack
+
+### Components
+
+- [Langflow](https://github.com/logspace-ai/langflow)
+
+### Datastax Astra DB Serverless 
+
+- [Langchain AstraDB](https://github.com/astradb/langchain-astradb)
+- [AstraPy](https://github.com/astradb/astrapy)

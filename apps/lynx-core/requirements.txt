@@ -72,6 +72,7 @@ astra-assistants==2.2.9
     # via langflow
 astrapy==1.5.2
     # via
+    #   lynx-core (pyproject.toml)
     #   astra-assistants
     #   langchain-astradb
 asttokens==3.0.0

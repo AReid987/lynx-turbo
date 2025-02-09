@@ -1,13 +1,14 @@
 ---
 type: Page
-title: 'PRD: LeadGen Agent'
-description: null
-icon: null
+title: 'PRD: Lynx'
+description: An stealthy autonomous Agent specialiing in stalking down qualified Diamond Leads for sales reps so they can 100x their productivity 
+focus more efforts on closing and other high impact work. 
+icon: Flat Vector Icon of a Lynx head in a circle
 createdAt: '2025-02-02T13:03:35.022Z'
 creationDate: 2025-02-02 07:03
 modificationDate: 2025-02-02 07:27
 tags: []
-coverImage: null
+coverImage: A cybernetic Lynx stalks her prey in a holographic forest
 ---
 
 # Lead Generation Agent for Compound Pharmacies and Weight Loss Clinics
