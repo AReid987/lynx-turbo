@@ -1,0 +1,62 @@
+import { Callout } from 'nextra/components'
+
+{/* Custom Callout Component */}
+export function CustomCallout({ children, type }) {
+  return (
+    <Callout type={type} emoji={type === 'info' ? 'ℹ️' : '⚠️'}>
+      {children}
+    </Callout>
+  )
+}
+
+{/* Custom Link Component */}
+export function CustomLink({ href, children }) {
+  const isExternal = href?.startsWith('http')
+  return (
+    <a
+      href={href}
+      target={isExternal ? '_blank' : undefined}
+      rel={isExternal ? 'noopener noreferrer' : undefined}
+      className="text-blue-600 hover:text-blue-800 underline"
+    >
+      {children}
+      {isExternal && ' ↗'}
+    </a>
+  )
+}
+
+{/* Custom Table Component */}
+export function CustomTable({ children }) {
+  return (
+    <div className="overflow-x-auto">
+      <table className="min-w-full divide-y divide-gray-200">
+        {children}
+      </table>
+    </div>
+  )
+}
+
+{/* Usage Examples */}
+## Example Usage
+
+### Callouts 
+<CustomCallout type="info">
+  This is an informational callout.
+</CustomCallout>
+
+<CustomCallout type="warning">
+  This is a warning callout.
+</CustomCallout>
+
+### Links
+<CustomLink href="https://nextra.site">External Link</CustomLink>
+
+<CustomLink href="/docs">Internal Link</CustomLink>
+
+### Tables
+<CustomTable>
+  | Feature | Description |
+  | ------- | ----------- |
+  | MDX     | Enhanced markdown with JSX |
+  | React   | UI Components |
+</CustomTable>

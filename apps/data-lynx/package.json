@@ -1,0 +1,13 @@
+{
+  "name": "@lynx/data-lynx",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@iconify/tailwind": "^1.2.0"
+  },
+  "dependencies": {
+    "promptfoo": "^0.104.4"
+  }
+}

@@ -8,5 +8,8 @@
     "apps"
   ],
   "python.testing.unittestEnabled": false,
-  "python.testing.pytestEnabled": true
+  "python.testing.pytestEnabled": true,
+  "marquee.widgets.npm-stats.packageNames": [
+    "@lynx/lynx-turborepo"
+  ]
 }

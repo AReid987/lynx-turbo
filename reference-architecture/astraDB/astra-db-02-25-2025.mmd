@@ -1,0 +1,58 @@
+---
+config:
+  theme: neo-dark
+  layout: fixed
+---
+flowchart TD
+ subgraph Actors["Actors"]
+        User1["User"]
+        User2["User"]
+        User3["User"]
+        Devices["Device"]
+  end
+ subgraph Frontend["Next JS Frontend"]
+        UI["UI"]
+        Serverless["Serverless Functions"]
+  end
+ subgraph Backend["Backend"]
+        Langflow["Langflow"]
+        NewSession["New Session"]
+        ExistingSession["Existing Session"]
+  end
+ subgraph AstraDB["AstraDB"]
+        ServerlessPG["Serverless PostgreSQL"]
+  end
+    User1 --- Devices
+    User2 --- Devices
+    User3 --- Devices
+    Devices L_Devices_Start_0@== Start === Start["Start"]
+    Start L_Start_UI_0@== Opens UI ==> UI
+    UI o--o Serverless
+    Serverless L_Serverless_Langflow_0@<== Websockets Connection ==> Langflow
+    Langflow == Check session_id ==> AstraDB
+    AstraDB ==> CheckSession["CheckSession"]
+    CheckSession == New Session ==> NewSession
+    NewSession <== Send Inital Prompt ==> Serverless
+    CheckSession == Existing Session ==> ExistingSession
+    ExistingSession == Send Welcome Back Msg ==> Serverless
+    n1[" "] --> n2[" "]
+    User1@{ icon: "fa:circle-user", pos: "b"}
+    User2@{ icon: "fa:circle-user", pos: "b"}
+    User3@{ icon: "fa:circle-user", pos: "b"}
+    Devices@{ icon: "azure:devices", form: "rounded", pos: "b"}
+    Start@{ shape: sm-circ}
+    CheckSession@{ shape: diam}
+    n1@{ shape: anchor}
+    n2@{ shape: anchor}
+    linkStyle 3 stroke:#00C853,fill:none
+    linkStyle 4 stroke:#00C853,fill:none
+    linkStyle 6 stroke:#2962FF,fill:none
+    linkStyle 7 stroke:#AA00FF,fill:none
+    linkStyle 8 stroke:#AA00FF,fill:none
+    linkStyle 9 stroke:#00C853,fill:none
+    linkStyle 10 stroke:#00C853,fill:none
+    linkStyle 11 stroke:#D50000,fill:none
+    linkStyle 12 stroke:#D50000,fill:none
+    L_Devices_Start_0@{ animation: slow } 
+    L_Start_UI_0@{ animation: slow } 
+    L_Serverless_Langflow_0@{ animation: fast }

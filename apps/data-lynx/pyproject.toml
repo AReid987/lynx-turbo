@@ -1,0 +1,22 @@
+[project]
+name = "data-lynx"
+version = "0.1.0"
+description = "lynx core system components"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "astrapy>=1.5.2",
+    "cassandra-driver>=3.29.2",
+    "deepeval>=2.4.1",
+    "fastapi>=0.115.8",
+    "langflow>=1.1.4.post1",
+    "python-dotenv>=1.0.1",
+    "uvicorn>=0.34.0",
+    "websockets>=12.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest-codspeed>=3.2.0",
+    "pytest-xdist>=3.6.1",
+]

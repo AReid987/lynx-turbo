@@ -1,0 +1,187 @@
+#/**************************************************************
+#*
+#*                .aider.conf.yml
+#*
+#*         Author:
+#*           Date: 10/2/2024
+#*
+#*        Summary:
+#*
+#**************************************************************/
+##########################################################
+
+# .aider.conf.yml
+# This file uses only some of the valid configuration entries.
+# Place in your home dir, or at the root of your git repo.
+##########################################################
+
+# Note: You can only put OpenAI and Anthropic API keys in the yaml
+# config file. Keys for all APIs can be stored in a .env file
+# https://aider.chat/docs/config/dotenv.html
+
+##########
+# options:
+
+## show this help message and exit
+#help: xxx
+
+#######
+# Main:
+
+## Specify the model to use for the main chat
+# model: cerebras/llama3.1-70b
+model: groq/llama-3.1-70b-versatile
+editor-model: groq/mixtral-8x7b-32768
+weak-model: groq/llama-3.1-8b-instant
+
+# Groq models
+# ---------------------------------------------------------------------------- #
+# - groq/gemma-7b-it
+# - groq/gemma2-9b-it
+# - groq/llama-3.1-405b-reasoning
+# - groq/llama-3.1-70b-versatile
+# - groq/llama-3.1-8b-instant
+# - groq/llama2-70b-4096
+# - groq/llama3-70b-8192
+# - groq/llama3-8b-8192
+# - groq/llama3-groq-70b-8192-tool-use-preview
+# - groq/llama3-groq-8b-8192-tool-use-preview
+# - groq/mixtral-8x7b-32768
+
+# Gemini Models
+# ---------------------------------------------------------------------------- #
+# - gemini/gemini-1.5-flash
+# - gemini/gemini-1.5-flash-001
+# - gemini/gemini-1.5-flash-002
+# - gemini/gemini-1.5-flash-8b-exp-0827
+# - gemini/gemini-1.5-flash-8b-exp-0924
+# - gemini/gemini-1.5-flash-exp-0827
+# - gemini/gemini-1.5-flash-latest
+# - gemini/gemini-1.5-pro
+# - gemini/gemini-1.5-pro-001
+# - gemini/gemini-1.5-pro-002
+# - gemini/gemini-1.5-pro-exp-0801
+# - gemini/gemini-1.5-pro-exp-0827
+# - gemini/gemini-1.5-pro-latest
+# - gemini/gemini-gemma-2-27b-it
+# - gemini/gemini-gemma-2-9b-it
+# - gemini/gemini-pro
+# - gemini/gemini-pro-vision
+
+# Ollama Models
+# ---------------------------------------------------------------------------- #
+# - ollama/codegeex4
+# - ollama/deepseek-coder-v2-instruct
+# - ollama/deepseek-coder-v2-lite-instruct
+# - ollama/internlm2_5-20b-chat
+# - ollama/llama3
+# - ollama/llama3.1
+# - ollama/llama3:70b
+# - ollama/llama3:8b
+# - ollama/mistral-7b-instruct-v0.1
+# - ollama/mistral-7b-instruct-v0.2
+# - ollama/mistral-large-instruct-2407
+# - ollama/mixtral-8x22b-instruct-v0.1
+# - ollama/mixtral-8x7b-instruct-v0.1
+
+# Cerebras models
+# ---------------------------------------------------------------------------- #
+# - cerebras/llama3.1-70b
+# - cerebras/llama3.1-8b
+
+# TogetherAI models
+# ---------------------------------------------------------------------------- #
+# - together-ai-21.1b-41b
+# - together-ai-4.1b-8b
+# - together-ai-41.1b-80b
+# - together-ai-8.1b-21b
+# - together-ai-81.1b-110b
+# - together-ai-up-to-4b
+# - together_ai/mistralai/mistral-7b-instruct-v0.1
+# - together_ai/mistralai/mixtral-8x7b-instruct-v0.1
+# - together_ai/together-ai-21.1b-41b
+# - together_ai/together-ai-4.1b-8b
+# - together_ai/together-ai-41.1b-80b
+# - together_ai/together-ai-8.1b-21b
+# - together_ai/together-ai-81.1b-110b
+# - together_ai/together-ai-up-to-4b
+# - together_ai/togethercomputer/codellama-34b-instruct
+
+#################
+# Model Settings:
+
+## List known models which match the (partial) MODEL name
+#list-models: xxx'
+
+## Use architect edit format for the main chat
+architect: true
+
+## Specify the model to use for commit messages and chat history summarization (default depends on --model)
+# weak-model: groq/llama-3.1-8b-instant
+
+## Specify the model to use for editor tasks (default depends on --model)
+#editor-model: xxx
+
+#################
+# Cache Settings:
+
+## Enable caching of prompts (default: False)
+cache-prompts: true
+
+##################
+# Output Settings:
+
+## Use colors suitable for a dark terminal background (default: False)
+dark-mode: true
+
+## Use colors suitable for a light terminal background (default: False)
+#light-mode: false
+
+## Set the markdown code theme (default: default, other options include monokai, solarized-dark, solarized-light)
+code-theme: monokai
+
+###############
+# Git Settings:
+
+## Specify a custom prompt for generating commit messages
+#commit-prompt: xxx
+
+########################
+# Fixing and committing:
+
+## Lint and fix provided files, or dirty files if none provided
+# lint: false
+
+## Specify lint commands to run for different languages, eg: "python: flake8 --select=..." (can be used multiple times)
+#lint-cmd: xxx
+## Specify multiple values like this:
+#lint-cmd: [xxx,yyyy,zzz]
+
+## Enable/disable automatic linting after changes (default: True)
+auto-lint: true
+
+## Specify command to run tests
+#test-cmd: xxx
+
+## Enable/disable automatic testing after changes (default: False)
+# auto-test: true
+
+## Run tests and fix problems found
+# test: true
+
+#################
+# Other Settings:
+
+## specify a read-only file (can be used multiple times)
+#read: xxx
+## Specify multiple values like this:
+#read: [xxx,yyyy,zzz]
+
+## Run aider in your browser
+#gui: true
+
+#################
+# Voice Settings:
+
+## Audio format for voice recording (default: wav). webm and mp3 require ffmpeg
+#voice-format: wav

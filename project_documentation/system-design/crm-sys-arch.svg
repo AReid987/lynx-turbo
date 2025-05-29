@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="801pt" height="601pt" viewBox="0 0 801 601" version="1.1">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+  <g>
+    <!-- Nodes -->
+    <rect x="50" y="50" width="150" height="50" fill="#fff" stroke="#000"/>
+    <text x="125" y="80" text-anchor="middle" fill="#000">User Accesses CRM</text>
+    
+    <rect x="300" y="50" width="150" height="50" fill="#fff" stroke="#000"/>
+    <text x="375" y="80" text-anchor="middle" fill="#000">Check Role</text>
+    
+    <!-- Add all other nodes and connections here -->
+    <!-- ... -->
+    
+    <!-- Connections -->
+    <line x1="200" y1="75" x2="300" y2="75" stroke="#000" marker-end="url(#arrow)"/>
+    <!-- Add all other connections here -->
+    <!-- ... -->
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+apps/lynx-core/Aigency-Token.json
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info
+.pytest_cache/
+
+# Environment files
+.env
+.envrc
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+
+# Build artifacts
+dist/
+build/
+*.egg
+*.whl
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*~
+
+# System files
+.fuse_hidden*

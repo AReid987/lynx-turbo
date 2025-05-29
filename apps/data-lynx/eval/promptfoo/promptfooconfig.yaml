@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+
+# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
+
+description: "My eval"
+
+prompts:
+  - "Write a tweet about {{topic}}"
+  
+
+providers:
+  - "huggingface:text-generation:meta-llama/Meta-Llama-3-8B-Instruct"
+  - "huggingface:text-generation:microsoft/Phi-3-mini-4k-instruct"
+  - "huggingface:text-generation:google/gemma-2b-it"
+  - "file://provider.py"
+  - "file://provider.js"
+  - "exec:provider.sh"
+  - "https://example.com/api/generate"
+  - "vertex:gemini-pro"
+  - "ollama:chat:llama3"
+  - "ollama:chat:mixtral:8x22b"
+  - "watsonx:meta-llama/llama-3-2-11b-vision-instruct"
+  - "watsonx:ibm/granite-13b-chat-v2"
+  
+
+tests:
+  - vars:
+      topic: bananas
+
+  - vars:
+      topic: avocado toast
+    assert:
+      # For more information on assertions, see https://promptfoo.dev/docs/configuration/expected-outputs
+
+      # Make sure output contains the word "avocado"
+      - type: icontains
+        value: avocado
+
+      # Prefer shorter outputs
+      - type: javascript
+        value: 1 / (output.length + 1)
+
+  - vars:
+      topic: new york city
+    assert:
+      # For more information on model-graded evals, see https://promptfoo.dev/docs/configuration/expected-outputs/model-graded
+      - type: llm-rubric
+        value: ensure that the output is funny
+

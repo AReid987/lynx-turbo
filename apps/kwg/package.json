@@ -1,0 +1,6 @@
+{
+  "name": "@lynx/kwg",
+  "version": "1.0.0",  "scripts": {
+    "test": "echo \"TODO: Write Tests\""
+  }
+}
