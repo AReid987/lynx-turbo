@@ -222,7 +222,7 @@ crewai==0.86.0
     #   langflow
 crewai-tools==0.25.5
     # via crewai
-cryptography==43.0.3
+cryptography==44.0.1
     # via
     #   auth0-python
     #   authlib
@@ -506,7 +506,7 @@ grpcio-tools==1.67.1
     #   weaviate-client
 gunicorn==23.0.0
     # via langflow-base
-h11==0.14.0
+h11==0.16.0
     # via
     #   httpcore
     #   uvicorn
@@ -769,7 +769,7 @@ langchainhub==0.1.21
     # via
     #   composio-langchain
     #   langflow-base
-langflow==1.1.4.post1
+langflow==1.3.0
     # via lynx-core (pyproject.toml)
 langflow-base==0.1.4.post1
     # via langflow
@@ -786,7 +786,7 @@ langwatch==0.1.16
     # via langflow
 lark==1.2.2
     # via langflow
-litellm==1.59.8
+litellm==1.61.15
     # via
     #   astra-assistants
     #   crewai
@@ -798,13 +798,13 @@ llama-cloud==0.1.13
     #   llama-index-indices-managed-llama-cloud
 llama-cloud-services==0.6.1
     # via llama-parse
-llama-index==0.12.19
+llama-index==0.12.28
     # via deepeval
 llama-index-agent-openai==0.4.6
     # via
     #   llama-index
     #   llama-index-program-openai
-llama-index-cli==0.4.0
+llama-index-cli==0.4.1
     # via llama-index
 llama-index-core==0.12.19
     # via
@@ -1426,7 +1426,7 @@ python-dotenv==1.0.1
     #   qianfan
     #   scrapegraph-py
     #   uvicorn
-python-jose==3.3.0
+python-jose==3.4.0
     # via langflow-base
 python-lsp-jsonrpc==1.1.2
     # via astra-assistants
@@ -1575,7 +1575,7 @@ sentry-sdk==2.20.0
     #   langflow-base
 serpapi==0.1.5
     # via crewai-tools
-setuptools==75.8.0
+setuptools==78.1.1
     # via
     #   grpcio-tools
     #   langflow-base
