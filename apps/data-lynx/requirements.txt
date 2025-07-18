@@ -276,7 +276,7 @@ diskcache==5.6.3
     # via
     #   dspy
     #   langflow-base
-    #   pyautogen
+    #   ag2
 distro==1.9.0
     # via
     #   anthropic
@@ -287,7 +287,7 @@ dnspython==2.7.0
 docker==7.1.0
     # via
     #   crewai-tools
-    #   pyautogen
+    #   ag2
 docstring-parser==0.16
     # via
     #   google-cloud-aiplatform
@@ -367,7 +367,7 @@ filetype==1.2.0
 firecrawl-py==1.11.1
     # via langflow-base
 flaml==2.3.3
-    # via pyautogen
+    # via ag2
 flatbuffers==25.1.24
     # via onnxruntime
 frozendict==2.4.6
@@ -979,7 +979,7 @@ numpy==1.26.4
     #   pandas
     #   pgvector
     #   pyarrow
-    #   pyautogen
+    #   ag2
     #   pylance
     #   qdrant-client
     #   qianfan
@@ -1008,7 +1008,7 @@ openai==1.61.1
     #   llama-index-embeddings-openai
     #   llama-index-llms-openai
     #   mem0ai
-    #   pyautogen
+    #   ag2
     #   pydantic-ai-slim
 openinference-instrumentation==0.1.22
     # via
@@ -1133,7 +1133,7 @@ packaging==24.2
     #   onnxruntime
     #   opentelemetry-instrumentation
     #   optuna
-    #   pyautogen
+    #   ag2
     #   pytest
     #   unstructured-client
 pandas==2.2.2
@@ -1255,7 +1255,7 @@ pyasn1==0.6.1
     #   rsa
 pyasn1-modules==0.4.1
     # via google-auth
-pyautogen==0.5.3
+ag2==0.5.3
     # via ag2
 pycparser==2.22
     # via cffi
@@ -1304,7 +1304,7 @@ pydantic==2.10.6
     #   ollama
     #   openai
     #   postgrest
-    #   pyautogen
+    #   ag2
     #   pydantic-ai-slim
     #   pydantic-graph
     #   pydantic-settings
@@ -1420,7 +1420,7 @@ python-dotenv==1.0.1
     #   firecrawl-py
     #   litellm
     #   llama-cloud-services
-    #   pyautogen
+    #   ag2
     #   pydantic-settings
     #   pymilvus
     #   qianfan
@@ -1672,14 +1672,14 @@ tenacity==8.5.0
     #   qianfan
     #   spider-client
 termcolor==2.5.0
-    # via pyautogen
+    # via ag2
 tiktoken==0.7.0
     # via
     #   embedchain
     #   langchain-openai
     #   litellm
     #   llama-index-core
-    #   pyautogen
+    #   ag2
 tokenizers==0.20.3
     # via
     #   chromadb

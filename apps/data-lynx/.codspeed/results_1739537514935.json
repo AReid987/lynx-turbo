@@ -1043,7 +1043,7 @@
       "semver": "3.0.4",
       "traitlets": "5.14.3",
       "zstandard": "0.23.0",
-      "pyautogen": "0.5.3",
+      "ag2": "0.5.3",
       "nest-asyncio": "1.6.0",
       "pyasn1_modules": "0.4.1",
       "Markdown": "3.7",
