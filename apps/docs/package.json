@@ -15,7 +15,7 @@
     "@million/lint": "^1.0.14",
     "@radix-ui/themes": "^3.2.0",
     "million": "^3.1.11",
-    "next": "^15.1.6",
+    "next": "^15.5.15",
     "nextra": "^4.2.5",
     "nextra-theme-docs": "^4.2.5",
     "react": "^19.0.0",
